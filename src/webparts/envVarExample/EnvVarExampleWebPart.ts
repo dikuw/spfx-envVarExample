@@ -27,7 +27,9 @@ export default class EnvVarExampleWebPart extends BaseClientSideWebPart<IEnvVarE
         <img alt="" src="${this._isDarkTheme ? require('./assets/welcome-dark.png') : require('./assets/welcome-light.png')}" class="${styles.welcomeImage}" />
         <h2>Well done, ${escape(this.context.pageContext.user.displayName)}!</h2>
         <div>${this._environmentMessage}</div>
+        <br>
         <div>Web part property value: <strong>${escape(this.properties.description)}</strong></div>
+        <br>
         <div>Display the enviornment variable here: <strong>${this._environmentalVariable}</strong></div>
       </div>
     </section>`;
