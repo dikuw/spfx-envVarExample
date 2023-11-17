@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "env-var-example-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/envVarExample/EnvVarExampleWebPart.js",
+          "manifest": "./src/webparts/envVarExample/EnvVarExampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EnvVarExampleWebPartStrings": "lib/webparts/envVarExample/loc/{locale}.js"
+  }
+}

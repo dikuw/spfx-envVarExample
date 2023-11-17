@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-env-var-example-client-side-solution",
+    "id": "ff8e2924-ce41-4480-8cca-92e7c52a621d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-env-var-example description"
+      },
+      "longDescription": {
+        "default": "spfx-env-var-example description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-env-var-example Feature",
+        "description": "The feature that activates elements of the spfx-env-var-example solution.",
+        "id": "597ed132-510a-4edf-83db-f2ee47cb7b2a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-env-var-example.sppkg"
+  }
+}

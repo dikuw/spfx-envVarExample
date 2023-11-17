@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "spfx-env-var-example",
+    "libraryId": "ff8e2924-ce41-4480-8cca-92e7c52a621d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-env-var-example",
+    "solutionShortDescription": "spfx-env-var-example description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
